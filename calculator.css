@@ -1,0 +1,43 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 300px;
+    padding: 300px 200px;
+    border-color: black;
+    border: solid;
+    justify-content: center;
+    border-color: black;
+}
+
+.display { 
+    border: black solid;
+    justify-content: center;
+    margin: 0px 392px; 
+    height: 80px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 10rem);
+    grid-auto-flow: dense;
+  }
+
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
